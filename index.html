@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turkish Culture</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            background-color: #ff4d4d;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 0 20px;
+        }
+
+        .content h1 {
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        .content p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .sidebar img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            cursor: pointer;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 10px;
+        }
+
+        .sidebar img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .content p {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .sidebar img {
+                max-width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Turkish Culture</h1>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <a href="https://www.holidify.com/collections/monuments-in-turkey" target="_blank">
+                <img src="turkey left.jpg" alt="Monuments in Turkey">
+            </a>
+        </div>
+        <div class="content">
+            <h1>Turkish Culture</h1>
+            <p>Turkey has a rich cultural heritage that dates back thousands of years. It is a bridge between the East and the West, blending elements from both cultures. The traditional Turkish hospitality, the unique cuisine, and the vibrant arts and music scene make Turkey a fascinating country to explore.</p>
+            <p>One of the most distinctive aspects of Turkish culture is its cuisine, which includes famous dishes like kebabs, baklava, and Turkish delight. The country is also renowned for its coffee and tea culture.</p>
+            <p>Another important aspect is the traditional Turkish music and dance, such as the Whirling Dervishes, which are part of the country's Sufi traditions. Folk music and dance are also prominent in various regions, each with its own unique styles and costumes.</p>
+            <p>Turkish baths, known as hammams, are an essential part of Turkish culture and history. These baths have been used for centuries as places of social gathering and relaxation.</p>
+            <p>In addition, Turkey's diverse historical landmarks, such as the Hagia Sophia, Topkapi Palace, and the ancient ruins of Ephesus, highlight the country's rich history and architectural prowess.</p>
+        </div>
+        <div class="sidebar">
+            <a href="https://www.holidify.com/collections/monuments-in-turkey" target="_blank">
+                <img src="turkey right.jpeg " alt="Monuments in Turkey">
+            </a>
+        </div>
+    </div>
+    
+</body>
+</html>
